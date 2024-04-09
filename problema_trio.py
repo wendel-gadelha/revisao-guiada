@@ -8,3 +8,8 @@ calcular_IMC()
 def menssagem_agredecimento():
     print("Obrigado(a) por usar a calculadora de IMC.")
 menssagem_agredecimento()
+
+def saudar():
+    nome = input("Qual seu nome?")
+    print("Olá, ", nome,"! Seja bem-vindo(a)!")
+saudar()
